@@ -1,14 +1,22 @@
 {
-  "name": "static-site",
-  "version": "1.0.0",
-  "description": "",
+  "name": "readme-package",
+  "version": "0.0.0",
+  "description": "package created for readme generator project",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "Andrew D'Alba",
+  "license": "MIT",
   "dependencies": {
     "inquirer": "^6.3.1"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andrewdalba/readme-generator.git"
+  },
+  "bugs": {
+    "url": "https://github.com/andrewdalba/readme-generator/issues"
+  },
+  "homepage": "https://github.com/andrewdalba/readme-generator#readme"
 }
