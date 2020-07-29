@@ -8,9 +8,6 @@ let format = `# ${data.title}
 [License](#license) | [Contributing](#contributing)
 [Tests](#tests) | [Questions](#questions)
 
-## Email Address
-${data.email}
-
 ## Installation
 ${data.install}
 
@@ -27,7 +24,10 @@ ${data.contributers}
 ${data.tests}
 
 ## Questions
-${data.questions}
+### Please direct any questions about this project to
+${data.email}
+### Or check out my gitHub page
+[Here](https://github.com/${data.username})
 
 `;
 

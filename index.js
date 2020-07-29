@@ -13,19 +13,6 @@ const questions = [
     },
     {
         type: 'input',
-        message: 'What is your email address?',
-        name: 'email',
-        validate: email => {
-            if (email.indexOf('@') != -1) {
-                return true;
-            }
-            else {
-                return 'Please enter a valid email address.'
-            }
-        }
-    },
-    {
-        type: 'input',
         message: 'What are the steps required to install your project? Provide a step-by-step description of how to get the development environment running.',
         name: 'install',
         validate: install => {
@@ -72,10 +59,40 @@ const questions = [
     },
     {
         type: 'input',
-        message: 'List any questions you may have',
-        name: 'questions',
-        default: 'No questions'
-    }
+        message: 'Please enter your gitHub username',
+        name: 'username',
+        validate: username => {
+
+            const specialChars = "<>@!#$%^&*()_+[]{}?:;|'\"\\,./~`-=";
+            for (let i = 0; i < specialChars.length; i++) {
+                if (username.indexOf(specialChars[i]) > -1) {
+                    return 'Please enter a valid gitHub username';
+                }
+            }
+
+            if (username.toLowerCase() === -1 || username.indexOf('-') === 0) {
+                return 'Please enter a valid gitHub username'
+            }
+            else {
+                return true;
+            }
+
+        }
+    },
+    {
+        type: 'input',
+        message: 'What is your email address?',
+        name: 'email',
+        validate: email => {
+            if (email.indexOf('@') != -1) {
+                return true;
+            }
+            else {
+                return 'Please enter a valid email address.'
+            }
+        }
+    },
+
 ];
 
 // function to write README file
@@ -95,7 +112,7 @@ function init() {
         // console.log(response);
         // "README.md" get put into the "fileName" paramter
         // whatever is returned from "generateMarkdown" is put into the data "paramter"
-        writeToFile("README.md", generateMarkdown({...response}));
+        writeToFile("README.md", generateMarkdown({ ...response }));
     })
 
 }

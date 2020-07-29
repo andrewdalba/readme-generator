@@ -6,24 +6,24 @@
 [License](#license) | [Contributing](#contributing)
 [Tests](#tests) | [Questions](#questions)
 
-## Email Address
-@an email
-
 ## Installation
-well first do this, then do that, then do this.
+Just install it bro
 
 ## Usage
-Use this project however you'd like
+example 1, example 2
 
 ## License
 MIT
 
 ## Contributing
-Me, myself, and I
+none
 
 ## Tests
 No tests
 
 ## Questions
-No questions
+### Please direct any questions about this project to
+andrewdalba@gmail.com
+### Or check out my gitHub page
+[Here](https://github.com/andrewdalba)
 
