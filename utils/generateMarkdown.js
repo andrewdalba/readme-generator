@@ -1,4 +1,6 @@
-# readme-generator
+function generateMarkdown(data) {
+
+let format = `# ${data.title}
 ## Table of Contents
 | | | |
 |-|-|-|
@@ -7,10 +9,10 @@
 [Tests](#tests) | [Questions](#questions)
 
 ## Email Address
-email@gmail
+${data.email}
 
 ## Installation
-do it good
+${data.install}
 
 ## Usage
 
@@ -27,3 +29,8 @@ do it good
 ## Questions
 
 
+`;
+
+    return format;
+}
+module.exports = generateMarkdown;
