@@ -1,4 +1,4 @@
-# readme-generator
+# README Generator
 ## Table of Contents
 | | |
 |-|-|
@@ -7,16 +7,17 @@
 [Tests](#tests) | [Questions](#questions)
 
 ## Installation
-Just install it bro
+Install package.json
 
 ## Usage
-example 1, example 2
+Run the program using node and follow the instructions to create an automatic custom README file
 
 ## License
 MIT
+![https://img.shields.io/github/license/andrewdalba/readme-generator](https://img.shields.io/github/license/andrewdalba/readme-generator)
 
 ## Contributing
-none
+Andrew D'Alba
 
 ## Tests
 No tests

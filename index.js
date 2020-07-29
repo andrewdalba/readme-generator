@@ -2,13 +2,14 @@ const inquirer = require('inquirer');
 const path = require('path');
 const fs = require('fs');
 const generateMarkdown = require("./utils/generateMarkdown.js");
+let basename = path.basename(process.cwd());
 
 // array of questions for user
 const questions = [
     {
         type: 'input',
         message: 'What is your project title?',
-        default: path.basename(process.cwd()),
+        default: basename,
         name: 'title',
     },
     {
@@ -112,7 +113,7 @@ function init() {
         // console.log(response);
         // "README.md" get put into the "fileName" paramter
         // whatever is returned from "generateMarkdown" is put into the data "paramter"
-        writeToFile("README.md", generateMarkdown({ ...response }));
+        writeToFile("README.md", generateMarkdown({ ...response }, basename));
     })
 
 }

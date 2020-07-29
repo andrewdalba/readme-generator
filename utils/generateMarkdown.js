@@ -1,4 +1,4 @@
-function generateMarkdown(data) {
+function generateMarkdown(data, basename) {
 
 let format = `# ${data.title}
 ## Table of Contents
@@ -16,6 +16,7 @@ ${data.usage}
 
 ## License
 ${data.license}
+![https://img.shields.io/github/license/${data.username}/${basename}](https://img.shields.io/github/license/${data.username}/${basename})
 
 ## Contributing
 ${data.contributers}
