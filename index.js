@@ -37,6 +37,44 @@ const questions = [
             }
         }
 
+    },
+    {
+        type: 'input',
+        message: 'Provide instructions and examples for use of this project.',
+        name: 'usage',
+        validate: usage => {
+            if (usage.length != 0) {
+                return true;
+            }
+            else {
+                return 'Please enter a valid response.';
+            }
+        }
+
+    },
+    {
+        type: 'list',
+        message: 'Please select the license used for this project.',
+        name: 'license',
+        choices: ['MIT', 'GPL', 'BSD', 'LGPL']
+    },
+    {
+        type: 'input',
+        message: 'List your collaborators, if any.',
+        name: 'contributers',
+        default: 'none'
+    },
+    {
+        type: 'input',
+        message: 'List your tests',
+        name: 'tests',
+        default: 'No tests'
+    },
+    {
+        type: 'input',
+        message: 'List any questions you may have',
+        name: 'questions',
+        default: 'No questions'
     }
 ];
 
@@ -57,9 +95,7 @@ function init() {
         // console.log(response);
         // "README.md" get put into the "fileName" paramter
         // whatever is returned from "generateMarkdown" is put into the data "paramter"
-        writeToFile("README.md", generateMarkdown({
-            ...response
-        }));
+        writeToFile("README.md", generateMarkdown({...response}));
     })
 
 }

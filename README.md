@@ -7,23 +7,23 @@
 [Tests](#tests) | [Questions](#questions)
 
 ## Email Address
-email@gmail
+@an email
 
 ## Installation
-do it good
+well first do this, then do that, then do this.
 
 ## Usage
-
+Use this project however you'd like
 
 ## License
-
+MIT
 
 ## Contributing
-
+Me, myself, and I
 
 ## Tests
-
+No tests
 
 ## Questions
-
+No questions
 

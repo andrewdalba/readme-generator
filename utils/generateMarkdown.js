@@ -15,19 +15,19 @@ ${data.email}
 ${data.install}
 
 ## Usage
-
+${data.usage}
 
 ## License
-
+${data.license}
 
 ## Contributing
-
+${data.contributers}
 
 ## Tests
-
+${data.tests}
 
 ## Questions
-
+${data.questions}
 
 `;
 
