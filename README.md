@@ -20,7 +20,7 @@ MIT
 Andrew D'Alba
 
 ## Tests
-No tests
+No test
 
 ## Questions
 ### Please direct any questions about this project to
