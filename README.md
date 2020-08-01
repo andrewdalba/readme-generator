@@ -14,7 +14,7 @@ Run the program using node and follow the instructions to create an automatic cu
 
 ## License
 MIT
-[![GitHub license](https://img.shields.io/github/license/andrewdalba/readme-generator)](https://img.shields.io/github/license/andrewdalba/readme-generator)
+[![GitHub license](https://img.shields.io/github/license/andrewdalba/readme-generator.svg)](https://img.shields.io/github/license/andrewdalba/readme-generator)
 
 ## Contributing
 Andrew D'Alba
