@@ -16,7 +16,7 @@ ${data.usage}
 
 ## License
 ${data.license}
-![https://img.shields.io/github/license/${data.username}/${basename}](https://img.shields.io/github/license/${data.username}/${basename})
+[![GitHub license](https://img.shields.io/github/license/${data.username}/${basename}.svg)](https://img.shields.io/github/license/${data.username}/${basename})
 
 ## Contributing
 ${data.contributers}

@@ -1,4 +1,4 @@
-# README Generator
+# Readme Generator
 ## Table of Contents
 | | |
 |-|-|
@@ -10,7 +10,7 @@
 Install package.json
 
 ## Usage
-Run the program using node and follow the instructions to create an automatic custom README file
+Create a custom README file by running the program and following the prompts
 
 ## License
 MIT
@@ -20,7 +20,7 @@ MIT
 Andrew D'Alba
 
 ## Tests
-No test
+No tests
 
 ## Questions
 ### Please direct any questions about this project to
